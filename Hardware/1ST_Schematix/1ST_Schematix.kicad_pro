@@ -429,13 +429,21 @@
         "uuid": "59c2502d-7c28-4023-9b54-15ec9e15e6d4"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "U1-2,J1",
     "variants": []
   },
   "sheets": [
     [
       "59c2502d-7c28-4023-9b54-15ec9e15e6d4",
       "Racine"
+    ],
+    [
+      "2983b62f-fce9-48cc-8b04-3b9352d41e01",
+      "STM32"
+    ],
+    [
+      "58991d82-9dd2-4511-b974-9bfcbd0b4f51",
+      "Power"
     ]
   ],
   "text_variables": {},
