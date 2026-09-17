@@ -429,17 +429,13 @@
         "uuid": "59c2502d-7c28-4023-9b54-15ec9e15e6d4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1",
     "variants": []
   },
   "sheets": [
     [
       "59c2502d-7c28-4023-9b54-15ec9e15e6d4",
       "Racine"
-    ],
-    [
-      "3cdd208b-58b1-47aa-9a37-0b4f2783e149",
-      "Power"
     ]
   ],
   "text_variables": {},
