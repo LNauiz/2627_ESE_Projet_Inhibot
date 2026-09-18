@@ -3529,6 +3529,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 166.37) (xy 104.14 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e1c805-1abf-473d-af83-66674ea5fd0f")
+	)
+	(wire
+		(pts
 			(xy 36.83 63.5) (xy 43.18 63.5)
 		)
 		(stroke
@@ -3676,6 +3686,16 @@
 			(type default)
 		)
 		(uuid "3f11e2ec-a520-4bd6-89ff-bd371e82dbe8")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.77) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3a443e-3c9f-4aab-967a-6d7fdd97998e")
 	)
 	(wire
 		(pts
@@ -4129,6 +4149,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 179.07) (xy 104.14 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efad8f47-ff96-4a0f-a906-f8be214bd748")
+	)
+	(wire
+		(pts
 			(xy 116.84 123.19) (xy 114.3 123.19)
 		)
 		(stroke
@@ -4178,7 +4208,7 @@
 		(uuid "096b9d5c-5a45-47fa-b3d2-a12776ab6f6e")
 	)
 	(label "RCC_OSC_OUT"
-		(at 63.5 60.96 0)
+		(at 63.5 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4186,6 +4216,16 @@
 			(justify left bottom)
 		)
 		(uuid "3e365b83-ac4a-46ff-84ab-0473b9e642a6")
+	)
+	(label "BOOT0"
+		(at 104.14 166.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88ef57ee-1c0d-418f-adce-c6381545e7a7")
 	)
 	(label "RCC_OSC_IN"
 		(at 63.5 54.61 0)
@@ -4196,6 +4236,16 @@
 			(justify left bottom)
 		)
 		(uuid "94ba7843-0c1b-43f6-9bc0-7f99a6b1b165")
+	)
+	(label "BOOT0"
+		(at 120.65 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa79ee12-917e-4867-aaa9-e829dda7099d")
 	)
 	(label "NRST"
 		(at 69.85 49.53 180)
@@ -4488,6 +4538,17 @@
 		)
 		(uuid "2cb26aea-7ee6-4138-ae35-c5f45b47221b")
 	)
+	(hierarchical_label "INTERRUPT3"
+		(shape input)
+		(at 78.74 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e7d8e93-3060-4ae9-85ed-a9fdfd383eae")
+	)
 	(hierarchical_label "TIM2_PWM_DRIVER4"
 		(shape input)
 		(at 116.84 115.57 0)
@@ -4685,12 +4746,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4716,7 +4771,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1k"
 			(at 58.42 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4773,9 +4828,81 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "R2")
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca0d509-377d-48d0-a143-260c5e048fa5")
+		(property "Reference" "#PWR0130"
+			(at 104.14 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3182df81-e2a7-4507-a2a8-b2e9dcbcf827")
+		)
+		(instances
+			(project "CPU_Inhibot"
+				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -4856,12 +4983,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4935,12 +5056,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0108")
 					(unit 1)
 				)
@@ -5027,12 +5142,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "C102")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5106,12 +5215,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0109")
 					(unit 1)
 				)
@@ -5195,12 +5298,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "C104")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5279,12 +5376,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5359,12 +5450,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0124")
 					(unit 1)
 				)
@@ -5482,12 +5567,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "J102")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "J102")
 					(unit 1)
 				)
@@ -5792,7 +5871,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "RED"
 			(at 78.74 175.1964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,12 +5935,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "D2")
 					(unit 1)
 				)
@@ -5959,12 +6032,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "SW102")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6057,12 +6124,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "C114")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6137,12 +6198,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0141")
 					(unit 1)
 				)
@@ -6227,12 +6282,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6258,7 +6307,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "GREEN"
 			(at 58.42 173.9264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,12 +6371,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "D1")
 					(unit 1)
 				)
@@ -6441,12 +6484,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6524,9 +6561,85 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "#PWR0122")
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 104.14 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77fdbf3f-0fec-4093-af89-916e7f046d72")
+		(property "Reference" "R4"
+			(at 106.68 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 106.68 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+			(at 104.14 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 104.14 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f2a94d1-d5ee-4d26-9407-3671e1fd774a")
+		)
+		(pin "1"
+			(uuid "12b47cec-46a6-4df3-a33d-b81ea0c2e754")
+		)
+		(instances
+			(project "CPU_Inhibot"
+				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6612,12 +6725,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "C103")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6643,7 +6750,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "1k"
 			(at 78.74 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6696,12 +6803,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "R3")
 					(unit 1)
 				)
@@ -6780,12 +6881,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0129")
 					(unit 1)
 				)
@@ -6872,12 +6967,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "C101")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6958,12 +7047,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "C105")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7038,12 +7121,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0128")
 					(unit 1)
 				)
@@ -7130,12 +7207,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "C106")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7210,12 +7281,6 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0126")
 					(unit 1)
 				)
@@ -7298,12 +7363,6 @@
 					(unit 1)
 				)
 			)
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(sheet_instances
@@ -7311,4 +7370,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
