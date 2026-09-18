@@ -444,6 +444,10 @@
     [
       "58991d82-9dd2-4511-b974-9bfcbd0b4f51",
       "Power"
+    ],
+    [
+      "bf29c48a-0938-4b44-b61a-f77bea55e593",
+      "Sensor"
     ]
   ],
   "text_variables": {},
