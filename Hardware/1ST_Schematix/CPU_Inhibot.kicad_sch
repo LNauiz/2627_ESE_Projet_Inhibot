@@ -4685,6 +4685,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4767,6 +4773,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4844,6 +4856,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4917,6 +4935,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0108")
 					(unit 1)
 				)
@@ -5003,6 +5027,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "C102")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5076,6 +5106,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0109")
 					(unit 1)
 				)
@@ -5159,6 +5195,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "C104")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5237,6 +5279,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5311,6 +5359,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0124")
 					(unit 1)
 				)
@@ -5428,6 +5482,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "J102")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "J102")
 					(unit 1)
 				)
@@ -5800,6 +5860,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5889,6 +5955,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "SW102")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "SW102")
 					(unit 1)
 				)
@@ -5985,6 +6057,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "C114")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6059,6 +6137,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0141")
 					(unit 1)
 				)
@@ -6139,6 +6223,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "R1")
 					(unit 1)
 				)
@@ -6232,6 +6322,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "D1")
 					(unit 1)
 				)
@@ -6345,6 +6441,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6418,6 +6520,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0122")
 					(unit 1)
 				)
@@ -6504,6 +6612,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "C103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6586,6 +6700,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6660,6 +6780,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0129")
 					(unit 1)
 				)
@@ -6746,6 +6872,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "C101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6826,6 +6958,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "C105")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6900,6 +7038,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0128")
 					(unit 1)
 				)
@@ -6986,6 +7130,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "C106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7060,6 +7210,12 @@
 		(instances
 			(project "CPU_Inhibot"
 				(path "/40c596dc-b3fd-49e1-961a-62fe576a1ed1"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
 					(reference "#PWR0126")
 					(unit 1)
 				)
@@ -7142,6 +7298,12 @@
 					(unit 1)
 				)
 			)
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/2983b62f-fce9-48cc-8b04-3b9352d41e01"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -7149,5 +7311,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

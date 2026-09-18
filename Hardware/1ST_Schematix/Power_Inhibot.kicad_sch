@@ -3425,6 +3425,12 @@
 		(uuid "8c5031c2-875b-4219-8c2f-aae33d0fb6c1")
 	)
 	(junction
+		(at 113.03 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94f92248-7690-47fc-8de6-3d81b551f353")
+	)
+	(junction
 		(at 184.15 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3695,6 +3701,16 @@
 			(type default)
 		)
 		(uuid "1c98b927-d1f4-498a-a9de-cd9c102caf78")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d699f4b-c7bc-43d1-a9a8-e5956025b09d")
 	)
 	(wire
 		(pts
@@ -4018,6 +4034,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 73.66) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4aa99e-38c9-43e9-abe4-f47a6defddb9")
+	)
+	(wire
+		(pts
 			(xy 156.21 104.14) (xy 156.21 106.68)
 		)
 		(stroke
@@ -4115,6 +4141,16 @@
 			(type default)
 		)
 		(uuid "89fc449e-5a0e-45f7-ba79-6bdd9100e514")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6d5289-e1c8-480a-b4f3-db1d1ae616af")
 	)
 	(wire
 		(pts
@@ -4358,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 73.66) (xy 115.57 73.66)
+			(xy 135.89 73.66) (xy 125.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4375,6 +4411,16 @@
 			(type default)
 		)
 		(uuid "d7042242-739b-4b88-9292-ca8047eb7255")
+	)
+	(wire
+		(pts
+			(xy 125.73 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da035434-1b83-46ed-a43e-dc7badee2970")
 	)
 	(wire
 		(pts
@@ -4408,7 +4454,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 115.57 74.93)
+			(xy 113.03 73.66) (xy 113.03 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4599,17 +4645,6 @@
 		)
 		(uuid "6293e71f-f930-4f63-925a-7058a7dc2f44")
 	)
-	(hierarchical_label "OTG"
-		(shape bidirectional)
-		(at 135.89 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5404873-0b30-4881-a2c0-3fbaa64ba5c9")
-	)
 	(hierarchical_label "STM32_D-"
 		(shape bidirectional)
 		(at 83.82 90.17 0)
@@ -4621,7 +4656,7 @@
 		)
 		(uuid "bdfc872c-86d2-4a8d-8975-edd4cb441cbe")
 	)
-	(hierarchical_label "~{INT}"
+	(hierarchical_label "BMS_~{INT}"
 		(shape bidirectional)
 		(at 135.89 88.9 180)
 		(effects
@@ -5154,7 +5189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 74.93 0)
+		(at 113.03 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5165,7 +5200,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e702ee7-87d4-43b0-9c9b-346e01fdf2c9")
 		(property "Reference" "#PWR06"
-			(at 115.57 81.28 0)
+			(at 113.03 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5176,7 +5211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 80.01 0)
+			(at 113.03 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5186,7 +5221,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 115.57 74.93 0)
+			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5197,7 +5232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 74.93 0)
+			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5208,7 +5243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 74.93 0)
+			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6006,6 +6041,86 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f74b6bb-99fe-4e7b-8a5b-2fb5cf178dd8")
+		(property "Reference" "R12"
+			(at 121.92 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 121.92 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 71.882 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e379b03-4f35-417a-b51b-41a1ce7bf330")
+		)
+		(pin "1"
+			(uuid "7a0703c8-601b-4dcb-b048-11a1a464e6f8")
+		)
+		(instances
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7506,6 +7621,86 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf0da06c-ebf2-4f74-8239-10e445a63634")
+		(property "Reference" "R11"
+			(at 121.92 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 121.92 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 89.662 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2498f2cb-6122-4001-a068-a88787bf2079")
+		)
+		(pin "1"
+			(uuid "d6a5c630-b782-4bdb-902e-cf63c22549c7")
+		)
+		(instances
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
+					(reference "R11")
 					(unit 1)
 				)
 			)
