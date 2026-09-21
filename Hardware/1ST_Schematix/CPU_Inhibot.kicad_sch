@@ -4983,7 +4983,7 @@
 		)
 		(uuid "7d3311b2-a55f-4a3f-b259-8d915b6ab924")
 	)
-	(hierarchical_label "ENCODER1_CH2"
+	(hierarchical_label "ENCODER2_CH2"
 		(shape output)
 		(at 115.57 105.41 0)
 		(effects
@@ -4995,7 +4995,7 @@
 		(uuid "7ed827a9-1494-4025-93b9-32abac06aed4")
 	)
 	(hierarchical_label "SCL1"
-		(shape input)
+		(shape bidirectional)
 		(at 203.2 100.33 0)
 		(effects
 			(font
@@ -5028,7 +5028,7 @@
 		(uuid "ae34cec3-8798-4fd8-a1db-60020f4afc10")
 	)
 	(hierarchical_label "Uart4_TX"
-		(shape input)
+		(shape output)
 		(at 74.93 92.71 180)
 		(effects
 			(font
@@ -5049,7 +5049,7 @@
 		)
 		(uuid "b58ca95a-e1d5-4acf-88f4-53c49fbcf7e4")
 	)
-	(hierarchical_label "ENCODER1_CH1"
+	(hierarchical_label "ENCODER2_CH1"
 		(shape output)
 		(at 115.57 102.87 0)
 		(effects
@@ -5061,7 +5061,7 @@
 		(uuid "c0c837f1-79d7-43ad-a808-a6786ba86cfe")
 	)
 	(hierarchical_label "SDA1"
-		(shape input)
+		(shape bidirectional)
 		(at 203.2 104.14 0)
 		(effects
 			(font
@@ -5083,7 +5083,7 @@
 		(uuid "f070c809-de7d-4aab-879a-ed0996b224fb")
 	)
 	(hierarchical_label "Uart4_RX"
-		(shape input)
+		(shape output)
 		(at 74.93 95.25 180)
 		(effects
 			(font

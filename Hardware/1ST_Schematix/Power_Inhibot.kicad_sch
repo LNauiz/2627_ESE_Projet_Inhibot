@@ -3290,7 +3290,7 @@
 	)
 	(rectangle
 		(start 114.3 152.4)
-		(end 166.37 191.77)
+		(end 152.4 191.77)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3866,16 +3866,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 181.61) (xy 146.05 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3934b822-c119-43e0-808d-aa1c6c7037c5")
-	)
-	(wire
-		(pts
 			(xy 158.75 106.68) (xy 158.75 107.95)
 		)
 		(stroke
@@ -3963,16 +3953,6 @@
 			(type default)
 		)
 		(uuid "4d869e4f-c148-414b-be53-06527c634c3d")
-	)
-	(wire
-		(pts
-			(xy 146.05 173.99) (xy 146.05 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e0042a6-ed0c-4ff1-bb26-24ef3894c85b")
 	)
 	(wire
 		(pts
@@ -4496,16 +4476,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 163.83) (xy 146.05 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd65ddd0-73d2-423a-b121-e8bd6e43c0e4")
-	)
-	(wire
-		(pts
 			(xy 170.18 118.11) (xy 170.18 116.84)
 		)
 		(stroke
@@ -4859,84 +4829,6 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12599a80-43a2-4e50-861a-bef24cdacb06")
-		(property "Reference" "#PWR024"
-			(at 146.05 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 146.05 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5539cc16-ec93-4ff7-b3c9-7cb4241433b4")
-		)
-		(instances
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6201,99 +6093,6 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 146.05 170.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ba4ee86-2f45-4bfb-85e0-339e149128bd")
-		(property "Reference" "D3"
-			(at 149.86 170.4974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 149.86 173.0374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
-			(at 146.05 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 146.05 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b0e8b2a-edd0-410f-bb32-2888af46da7b")
-		)
-		(pin "2"
-			(uuid "5a8fe3b6-f72c-457c-8204-cf0030231915")
-		)
-		(instances
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7787,99 +7586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 146.05 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b95b0198-9f7d-4dd7-97d8-b83956c42ed8")
-		(property "Reference" "R13"
-			(at 148.59 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 148.59 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Parts #" "C25905"
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed60238f-70fd-48d9-af8c-f697a4a5af17")
-		)
-		(pin "2"
-			(uuid "d9f88773-106e-477d-b3b3-b1b7d2136528")
-		)
-		(instances
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 123.19 170.18 90)
 		(unit 1)
@@ -8863,84 +8569,6 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 146.05 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b7aed4-21c7-4482-95ee-abc15f1c7e08")
-		(property "Reference" "#PWR025"
-			(at 146.05 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 146.05 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f97497b-0eea-4470-87a5-ab7e349d107c")
-		)
-		(instances
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
