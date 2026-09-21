@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -429,7 +429,7 @@
         "uuid": "59c2502d-7c28-4023-9b54-15ec9e15e6d4"
       }
     ],
-    "used_designators": "U1-5,J1,#FLG1-3,R1-12,#PWR1-22,L1,D1-2,C1-13",
+    "used_designators": "U1-6,J1-6,R1-16,#FLG1-3,#PWR1-39,#PWR107,L1,D1-4,C1-16,H1-4,JP1-2",
     "variants": []
   },
   "sheets": [
@@ -448,6 +448,10 @@
     [
       "bf29c48a-0938-4b44-b61a-f77bea55e593",
       "Sensor"
+    ],
+    [
+      "1e0ae450-d628-4008-9bff-0e455259cd6c",
+      "Connectors"
     ]
   ],
   "text_variables": {},
