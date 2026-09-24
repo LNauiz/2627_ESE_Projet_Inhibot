@@ -6295,7 +6295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05530e40-ed5d-4b70-ba8d-1c64c08c8f09")
-		(property "Reference" "R7"
+		(property "Reference" "R313"
 			(at 266.7 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6370,7 +6370,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R7")
+					(reference "R313")
 					(unit 1)
 				)
 			)
@@ -6388,7 +6388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1332c2b7-23fd-48d9-8913-7a366706472e")
-		(property "Reference" "R18"
+		(property "Reference" "R304"
 			(at 72.39 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6452,7 +6452,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R18")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -6470,7 +6470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "143544c6-8126-45cc-9337-1c5db51faffb")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0305"
 			(at 78.74 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6530,7 +6530,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR02")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -6548,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16bae7e1-a1c6-44a7-8912-a1db3db53a1f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0317"
 			(at 245.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6608,7 +6608,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR09")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -6626,7 +6626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19cd804f-0971-45c2-b97b-2ffa27fadff3")
-		(property "Reference" "R1"
+		(property "Reference" "R302"
 			(at 59.69 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6701,7 +6701,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R1")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -6719,7 +6719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7515e1-d011-4a67-9906-bec8d9ec3f34")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0303"
 			(at 67.31 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6779,7 +6779,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR07")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -6797,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d6a4b27-0450-4e4f-86ab-6f9cf6752775")
-		(property "Reference" "D3"
+		(property "Reference" "D301"
 			(at 27.94 160.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,7 +6883,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "D3")
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -6901,7 +6901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1de2a095-84d5-419a-841c-396e78f0d8ad")
-		(property "Reference" "C18"
+		(property "Reference" "C302"
 			(at 121.92 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +6965,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C18")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -6983,7 +6983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e7e962-2dd5-4372-b6a9-8a7107b6effa")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0316"
 			(at 198.12 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7043,7 +7043,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR052")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -7061,7 +7061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2abc718f-e540-41f5-b055-be17915b1ab5")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0319"
 			(at 264.16 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7121,7 +7121,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR015")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -7139,7 +7139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e702ee7-87d4-43b0-9c9b-346e01fdf2c9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0306"
 			(at 111.76 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7199,7 +7199,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR06")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -7217,7 +7217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31102ed8-b3d6-4fd5-9522-67f966dbc685")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0315"
 			(at 194.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7278,7 +7278,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR05")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -7296,7 +7296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34477391-96b9-4c4a-8b42-a2d626cc2cbd")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0304"
 			(at 74.93 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7356,7 +7356,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR08")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -7374,7 +7374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "386e9b34-47cd-464a-91fb-fe0dfbb9497a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0301"
 			(at 26.67 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7434,7 +7434,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR01")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -7452,7 +7452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ceb778-f579-47b5-af3f-58b5d1de45da")
-		(property "Reference" "Q2"
+		(property "Reference" "Q301"
 			(at 72.39 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,7 +7528,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "Q2")
+					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -7546,7 +7546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40aa3d75-3df8-49e7-ae2c-5abd925d6708")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0320"
 			(at 265.43 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7606,7 +7606,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR010")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -7624,7 +7624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4128c3db-7315-476f-b810-8b6d513e0a5e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0313"
 			(at 182.88 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7685,7 +7685,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR04")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -7703,7 +7703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cbd6c4-85a8-4532-8b3c-3fbd9c70fea9")
-		(property "Reference" "C10"
+		(property "Reference" "C307"
 			(at 180.34 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,7 +7767,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C10")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -7785,7 +7785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "431656c6-e4d3-46da-ab26-a3b580b0f666")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0318"
 			(at 252.73 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7845,7 +7845,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR014")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -7863,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4adc42b2-e327-4978-809c-352bfa4600fa")
-		(property "Reference" "D2"
+		(property "Reference" "D303"
 			(at 267.97 142.5574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7938,7 +7938,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "D2")
+					(reference "D303")
 					(unit 1)
 				)
 			)
@@ -7956,7 +7956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fd7e563-884c-4a2e-ad55-1ec522f0b7ef")
-		(property "Reference" "J1"
+		(property "Reference" "J301"
 			(at 30.48 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,7 +8074,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "J1")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -8092,7 +8092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f74b6bb-99fe-4e7b-8a5b-2fb5cf178dd8")
-		(property "Reference" "R12"
+		(property "Reference" "R305"
 			(at 120.65 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8154,7 +8154,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R12")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604807eb-d9f0-4647-9405-158a98f15552")
-		(property "Reference" "C4"
+		(property "Reference" "C304"
 			(at 165.1 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +8236,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C4")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -8254,7 +8254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6413152a-1644-4562-8a8f-17ec471c70d0")
-		(property "Reference" "U4"
+		(property "Reference" "U301"
 			(at 76.5811 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8344,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "U4")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -8362,7 +8362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b09d8a9-45cf-4a17-821e-bdcade8b6494")
-		(property "Reference" "C7"
+		(property "Reference" "C312"
 			(at 226.06 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +8426,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C7")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -8443,7 +8443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7457adbc-654b-49cc-9ee0-1db1755a3d69")
-		(property "Reference" "C9"
+		(property "Reference" "C313"
 			(at 261.62 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,7 +8507,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C9")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -8525,7 +8525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7545f6a7-f9ae-4b28-8b2e-8b35a4478a91")
-		(property "Reference" "U2"
+		(property "Reference" "U302"
 			(at 144.78 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8656,7 +8656,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "U2")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -8674,7 +8674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fc30668-df48-4067-90b9-42ea9bc50bb5")
-		(property "Reference" "C5"
+		(property "Reference" "C305"
 			(at 172.72 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8738,7 +8738,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C5")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -8756,7 +8756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "816a90db-673a-4eeb-9539-281f2668256b")
-		(property "Reference" "C11"
+		(property "Reference" "C309"
 			(at 190.5 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8820,7 +8820,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C11")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -8838,7 +8838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f79339-6607-49d6-8cc5-179e1b31b22e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0312"
 			(at 181.61 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8899,7 +8899,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR011")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -8917,7 +8917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8559accc-c731-4f3f-a260-d05339d1bc30")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0311"
 			(at 181.61 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8978,7 +8978,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR013")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -8996,7 +8996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858747a5-874b-48b9-af10-b91fe97ef885")
-		(property "Reference" "R2"
+		(property "Reference" "R303"
 			(at 69.85 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9071,7 +9071,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R2")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c9a0f0-4bd2-43ce-906c-fa3374f4ae48")
-		(property "Reference" "L1"
+		(property "Reference" "L301"
 			(at 166.37 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,7 +9151,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "L1")
+					(reference "L301")
 					(unit 1)
 				)
 			)
@@ -9168,7 +9168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d45ef54-1b4b-4dd8-9429-e765cf895a4b")
-		(property "Reference" "Q2"
+		(property "Reference" "Q301"
 			(at 43.18 162.5601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,7 +9244,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "Q2")
+					(reference "Q301")
 					(unit 2)
 				)
 			)
@@ -9261,7 +9261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e8eb8a7-529b-4821-98c9-e093056e62b1")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0308"
 			(at 129.54 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9321,7 +9321,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR054")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -9339,7 +9339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eaf65a2-f8b5-4c6b-82dc-5135f9d7e05d")
-		(property "Reference" "R20"
+		(property "Reference" "R311"
 			(at 168.91 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9401,7 +9401,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R20")
+					(reference "R311")
 					(unit 1)
 				)
 			)
@@ -9419,7 +9419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ef57f96-f8eb-4ee4-9336-7ee60439ff3c")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG0302"
 			(at 179.07 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -9479,7 +9479,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#FLG02")
+					(reference "#FLG0302")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94ad6354-0d63-45f7-80eb-e7ade0ac9bd9")
-		(property "Reference" "R4"
+		(property "Reference" "R309"
 			(at 160.02 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9561,7 +9561,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R4")
+					(reference "R309")
 					(unit 1)
 				)
 			)
@@ -9579,7 +9579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "967d8ea8-6634-4496-8fc5-c822efc64bbd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0307"
 			(at 129.54 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9639,7 +9639,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR025")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -9657,7 +9657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a08ef1bf-2799-469a-8452-d8f69a220033")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0302"
 			(at 58.42 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -9717,7 +9717,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR024")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -9735,7 +9735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeee91d9-d739-4bf6-803b-d118cfaf121c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0309"
 			(at 144.78 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9795,7 +9795,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR03")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -9813,7 +9813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afd1f9b5-8705-4465-affd-587f56994617")
-		(property "Reference" "R6"
+		(property "Reference" "R312"
 			(at 255.27 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +9888,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R6")
+					(reference "R312")
 					(unit 1)
 				)
 			)
@@ -9906,7 +9906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a808a6-1598-404f-9c10-1b57daa7f621")
-		(property "Reference" "U7"
+		(property "Reference" "U303"
 			(at 147.955 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,7 +9989,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "U7")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -10007,7 +10007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6af456e-6745-4a57-88d3-7a47db983bcf")
-		(property "Reference" "R3"
+		(property "Reference" "R310"
 			(at 163.83 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10069,7 +10069,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R3")
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -10087,7 +10087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baa59835-f984-475a-984b-27f2fd7b3867")
-		(property "Reference" "D1"
+		(property "Reference" "D302"
 			(at 256.54 142.5574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10162,7 +10162,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "D1")
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -10180,7 +10180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf0da06c-ebf2-4f74-8239-10e445a63634")
-		(property "Reference" "R11"
+		(property "Reference" "R306"
 			(at 120.65 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10242,7 +10242,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R11")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -10259,7 +10259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c56b7a3a-8735-4c14-8b84-3e389014c03b")
-		(property "Reference" "C8"
+		(property "Reference" "C314"
 			(at 269.24 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10323,7 +10323,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C8")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -10341,7 +10341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6add882-8a84-4686-8c1f-9fb6d1408e9a")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0310"
 			(at 162.56 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10401,7 +10401,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR053")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -10419,7 +10419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7b162bf-d2dd-4aaa-8a96-6b5e9739b2ef")
-		(property "Reference" "R5"
+		(property "Reference" "R308"
 			(at 134.62 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10483,7 +10483,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R5")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -10501,7 +10501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e320cd-4e5d-4576-af10-f7e85402652f")
-		(property "Reference" "U3"
+		(property "Reference" "U304"
 			(at 245.11 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,7 +10572,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "U3")
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -10590,7 +10590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82bab53-a0ff-4771-8524-0153d97050af")
-		(property "Reference" "C2"
+		(property "Reference" "C308"
 			(at 186.69 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,7 +10654,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C2")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -10672,7 +10672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca71cae6-af6f-4470-9a09-f5ec9ef365d2")
-		(property "Reference" "C3"
+		(property "Reference" "C306"
 			(at 176.53 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,7 +10736,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C3")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -10754,7 +10754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d29b941e-dc8b-49d5-9b63-b61bd2d51f9f")
-		(property "Reference" "C6"
+		(property "Reference" "C310"
 			(at 198.12 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10818,7 +10818,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C6")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -10836,7 +10836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d31dabb8-e080-4699-a5dd-85640550101a")
-		(property "Reference" "Q1"
+		(property "Reference" "Q302"
 			(at 59.69 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10904,7 +10904,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "Q1")
+					(reference "Q302")
 					(unit 1)
 				)
 			)
@@ -10922,7 +10922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d801e9a6-ccd9-4c20-aa3c-3303c5e891cf")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0314"
 			(at 186.69 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +10982,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#PWR012")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -11000,7 +11000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db4c77e9-390a-4d10-af00-1de4a0370f76")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG0303"
 			(at 267.335 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -11061,7 +11061,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#FLG03")
+					(reference "#FLG0303")
 					(unit 1)
 				)
 			)
@@ -11079,7 +11079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deac75ab-f639-4c0f-bb6a-3eb46b1c5b64")
-		(property "Reference" "C1"
+		(property "Reference" "C301"
 			(at 82.55 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11143,7 +11143,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C1")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -11161,7 +11161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4c2b336-32ad-47ae-8425-5d08352ef4a9")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0301"
 			(at 24.765 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11222,7 +11222,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "#FLG01")
+					(reference "#FLG0301")
 					(unit 1)
 				)
 			)
@@ -11240,7 +11240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea650cfe-2dbb-4b84-923c-9595f5c39457")
-		(property "Reference" "C19"
+		(property "Reference" "C303"
 			(at 135.89 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11304,7 +11304,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C19")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -11322,7 +11322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca643e4-ba4a-4398-916c-afe92e328b2c")
-		(property "Reference" "R13"
+		(property "Reference" "R301"
 			(at 48.26 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11386,7 +11386,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R13")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -11404,7 +11404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5872de7-f41e-4565-a3ac-c1efe604e622")
-		(property "Reference" "R19"
+		(property "Reference" "R307"
 			(at 132.08 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11468,7 +11468,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "R19")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -11486,7 +11486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ce348a-eeb2-4f56-9978-53b9b1ac89fe")
-		(property "Reference" "C20"
+		(property "Reference" "C311"
 			(at 201.93 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11550,7 +11550,7 @@
 		(instances
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/58991d82-9dd2-4511-b974-9bfcbd0b4f51"
-					(reference "C20")
+					(reference "C311")
 					(unit 1)
 				)
 			)
