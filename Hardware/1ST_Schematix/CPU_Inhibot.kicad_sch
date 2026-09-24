@@ -6875,7 +6875,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "61911867-5373-4b93-a474-728dc4f0de28")
 		(property "Reference" "R205"
@@ -8281,7 +8281,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d7f4eade-a3d0-4675-8a95-05a89a7d886a")
 		(property "Reference" "R206"
