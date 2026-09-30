@@ -7548,7 +7548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND24_Small"
+		(property "Value" "X322516MLB4SI"
 			(at 41.656 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7559,7 +7559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm"
 			(at 43.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7570,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322516MLB4SI/C13738"
 			(at 43.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7607,6 +7607,17 @@
 			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C13738"
+			(at 43.18 58.42 90)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font

@@ -3977,7 +3977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Maple_Mini"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
 			(at 82.55 127 0)
 			(hide yes)
 			(show_name no)
@@ -4369,7 +4369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Maple_Mini"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
 			(at 102.87 127 0)
 			(hide yes)
 			(show_name no)
@@ -4503,7 +4503,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4531,7 +4531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical"
 			(at 50.8 128.27 0)
 			(hide yes)
 			(show_name no)
