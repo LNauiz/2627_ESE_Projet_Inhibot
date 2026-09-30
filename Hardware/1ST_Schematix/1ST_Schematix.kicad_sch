@@ -2615,7 +2615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 86.868 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -3207,26 +3207,6 @@
 				(justify left)
 			)
 		)
-		(pin "Uart4_RX" output
-			(at 163.83 90.17 270)
-			(uuid "50f9596f-435b-43dd-9355-14c89dfd7b95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Uart4_TX" output
-			(at 161.29 90.17 270)
-			(uuid "465e58a5-5bee-4653-8d9e-452e4a9c5027")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TIM1_RGB" output
 			(at 129.54 90.17 270)
 			(uuid "183a391e-3fcc-439d-a247-8457b46df5b3")
@@ -3360,6 +3340,26 @@
 		(pin "INT_Color" input
 			(at 147.32 90.17 270)
 			(uuid "508a4343-2219-4733-82a8-55d9684773ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32_RX" output
+			(at 163.83 90.17 270)
+			(uuid "704edd2a-30bf-4458-9d1a-d2d6cc588c54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32_TX" output
+			(at 161.29 90.17 270)
+			(uuid "c6f87bc7-d11f-44a1-8f1f-5a53949107f7")
 			(effects
 				(font
 					(size 1.27 1.27)

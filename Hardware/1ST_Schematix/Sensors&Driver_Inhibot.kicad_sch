@@ -283,6 +283,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1865,17 +2043,6 @@
 		)
 		(uuid "b8e2d2ce-5044-4575-8be3-b77668767c07")
 	)
-	(text "Vérifier valeur"
-		(exclude_from_sim no)
-		(at 176.276 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5c8e48c1-4844-434e-b38e-1d7cc3d78cdd")
-	)
 	(text "FAULT sur STM32"
 		(exclude_from_sim no)
 		(at 258.064 92.456 0)
@@ -1886,16 +2053,6 @@
 			)
 		)
 		(uuid "7282d060-c3bc-4d88-86e0-ea519a3e9686")
-	)
-	(text "CAPA BULK\n470uF / 25V\nElectrolytique\nBon courage"
-		(exclude_from_sim no)
-		(at 250.952 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7c3d627e-d5bd-429c-aa12-bb78fac06f2b")
 	)
 	(text_box "Driver"
 		(exclude_from_sim no)
@@ -1968,12 +2125,6 @@
 		(uuid "48469636-af2e-416d-bbb5-edc9a1e37b62")
 	)
 	(junction
-		(at 172.72 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51a7cc71-f93f-44b0-a804-f0792c6744c8")
-	)
-	(junction
 		(at 85.09 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1996,12 +2147,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "955ad96b-cd44-4e43-948a-fa1e8d2ca40b")
-	)
-	(junction
-		(at 185.42 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9fb6c3e-e9f7-434b-8fb8-b55afcb559d1")
 	)
 	(junction
 		(at 55.88 92.71)
@@ -2147,16 +2292,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 185.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2643578a-bab0-425c-ace9-db3f3af03213")
-	)
-	(wire
-		(pts
 			(xy 252.73 96.52) (xy 237.49 96.52)
 		)
 		(stroke
@@ -2164,16 +2299,6 @@
 			(type default)
 		)
 		(uuid "2bcc58cf-76ee-4512-a9d6-80ebd74131c6")
-	)
-	(wire
-		(pts
-			(xy 172.72 93.98) (xy 172.72 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cc7b333-1d1b-46b8-8528-4c3861ed977d")
 	)
 	(wire
 		(pts
@@ -2284,16 +2409,6 @@
 			(type default)
 		)
 		(uuid "6f7755dc-22e6-41c0-b253-c597f6836ca2")
-	)
-	(wire
-		(pts
-			(xy 172.72 87.63) (xy 172.72 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8c8d4e-713f-4358-855c-727b38633b28")
 	)
 	(wire
 		(pts
@@ -3413,7 +3528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 177.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3622,7 +3737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 237.49 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4063,88 +4178,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 172.72 91.44 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5eff745d-3fd7-41a9-9689-a7a3ef3e69ba")
-		(property "Reference" "C407"
-			(at 170.18 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 170.18 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 172.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7813143-2b66-440b-8c07-8cf8ace866db")
-		)
-		(pin "2"
-			(uuid "82b72fcb-55be-4f65-a371-bbc911adbad4")
-		)
-		(instances
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/bf29c48a-0938-4b44-b61a-f77bea55e593"
-					(reference "C407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 63.5 90.17 90)
 		(unit 1)
@@ -4404,7 +4437,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 182.88 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4631,6 +4664,99 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/bf29c48a-0938-4b44-b61a-f77bea55e593"
 					(reference "#PWR0417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 236.22 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "830d5070-5b08-42fe-aafa-3ceb010f1899")
+		(property "Reference" "C406"
+			(at 238.76 78.1938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u"
+			(at 238.76 80.7338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C178566"
+			(at 236.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40e50039-6a3d-470e-946e-004d781dc1ab")
+		)
+		(pin "2"
+			(uuid "1a19a059-8e56-47fe-ac45-66b222ae9402")
+		)
+		(instances
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/bf29c48a-0938-4b44-b61a-f77bea55e593"
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -5026,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 195.58 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5141,6 +5267,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1525"
+			(at 95.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e53c401-3f21-4912-bbb9-88017d475331")
 		)
@@ -5151,99 +5288,6 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/bf29c48a-0938-4b44-b61a-f77bea55e593"
 					(reference "C402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 236.22 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d924a93f-d472-451a-9afa-f10293d5c008")
-		(property "Reference" "C406"
-			(at 238.76 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 238.76 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D8.0mm_P2.50mm"
-			(at 236.22 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C9900016268"
-			(at 236.22 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ddffbb11-1ecc-4223-a608-6738f2edfd64")
-		)
-		(pin "1"
-			(uuid "c302dc92-795d-41a9-ab52-77ef71e961f1")
-		)
-		(instances
-			(project "1ST_Schematix"
-				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/bf29c48a-0938-4b44-b61a-f77bea55e593"
-					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -5357,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5696,6 +5740,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 85.09 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1525"
+			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
