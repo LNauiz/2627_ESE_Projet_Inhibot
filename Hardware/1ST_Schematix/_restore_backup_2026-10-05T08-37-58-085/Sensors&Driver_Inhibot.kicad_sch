@@ -2783,7 +2783,7 @@
 	)
 	(hierarchical_label "PWM4"
 		(shape input)
-		(at 195.58 106.68 180)
+		(at 195.58 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,7 +2805,7 @@
 	)
 	(hierarchical_label "AOUT2"
 		(shape output)
-		(at 220.98 106.68 0)
+		(at 220.98 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2827,7 +2827,7 @@
 	)
 	(hierarchical_label "PWM3"
 		(shape input)
-		(at 195.58 109.22 180)
+		(at 195.58 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2838,7 +2838,7 @@
 	)
 	(hierarchical_label "BOUT1"
 		(shape output)
-		(at 220.98 101.6 0)
+		(at 220.98 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2849,7 +2849,7 @@
 	)
 	(hierarchical_label "BOUT2"
 		(shape output)
-		(at 220.98 104.14 0)
+		(at 220.98 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2860,7 +2860,7 @@
 	)
 	(hierarchical_label "AOUT1"
 		(shape output)
-		(at 220.98 109.22 0)
+		(at 220.98 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)

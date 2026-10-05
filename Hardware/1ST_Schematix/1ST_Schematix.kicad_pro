@@ -60,16 +60,42 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.261112
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.261112
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.261112
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.2032,
+          "width": 0.261112
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +229,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        0.7,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +262,28 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -689,7 +742,7 @@
         "uuid": "59c2502d-7c28-4023-9b54-15ec9e15e6d4"
       }
     ],
-    "used_designators": "U1-6,U201,U301-304,U401-402,J1-12,J201,J301,J501-510,R1-17,R101,R201-208,R301-313,R401-404,#FLG1-3,#FLG301-303,#PWR1-52,#PWR101-103,#PWR107,#PWR201-215,#PWR301-320,#PWR401-411,#PWR501-520,L1,L301,D1-4,D201-202,D301-303,D501,C1-17,C201-207,C301-314,C401-405,C501,H1-4,H101-104,JP1-4,JP201-202,JP501-502,Button1,SW1,SW101,SW201,Q301-302,Y201",
+    "used_designators": "C1-17,C201-207,C301-314,C401-405,C501,H1-4,H101-104,SW1,SW101,SW201,Q301-302,J1-12,J201,J301,J501-510,R1-17,R101,R201-208,R301-313,R401-404,JP1-4,JP201-202,JP501-502,Button1,#FLG1-3,#FLG301-303,Y201,#PWR1-52,#PWR101-103,#PWR107,#PWR201-215,#PWR301-320,#PWR401-411,#PWR501-520,L1,L301,U1-6,U201,U301-304,U401-402,D1-4,D201-202,D301-303,D501",
     "variants": []
   },
   "sheets": [
@@ -707,7 +760,7 @@
     ],
     [
       "bf29c48a-0938-4b44-b61a-f77bea55e593",
-      "Sensor"
+      "Sensors&Driver"
     ],
     [
       "1e0ae450-d628-4008-9bff-0e455259cd6c",
