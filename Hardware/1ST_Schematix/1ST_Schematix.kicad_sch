@@ -845,6 +845,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 90.17) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f4055e-0b6e-4ed2-935c-9445ba5790dd")
+	)
+	(wire
+		(pts
 			(xy 30.48 127) (xy 40.64 127)
 		)
 		(stroke
@@ -3003,16 +3013,6 @@
 				(justify right)
 			)
 		)
-		(pin "Servomot" input
-			(at 133.35 97.79 90)
-			(uuid "370d861c-9d62-48d4-9198-7f783d35c011")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "V_BAT" input
 			(at 82.55 107.95 180)
 			(uuid "cdc95229-fa6f-4644-9d51-72f5a510549e")
@@ -3166,6 +3166,26 @@
 		(pin "TX_Bluetooth" input
 			(at 163.83 97.79 90)
 			(uuid "44d8401b-e961-4da6-a52d-71dc6f728519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Servomot1" input
+			(at 135.89 97.79 90)
+			(uuid "ac284bfc-a3ca-44f7-8bda-48b9f77fe595")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Servomot2" input
+			(at 133.35 97.79 90)
+			(uuid "107235d6-38fd-4679-bca5-19324ee95ec1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,16 +3349,6 @@
 				(justify right)
 			)
 		)
-		(pin "TIM2_PWM_SERVO" output
-			(at 133.35 90.17 270)
-			(uuid "39f6fdd1-5e75-4d56-9ea9-1d61f0e2c0bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TIM1_RGB" output
 			(at 129.54 90.17 270)
 			(uuid "183a391e-3fcc-439d-a247-8457b46df5b3")
@@ -3492,6 +3502,26 @@
 		(pin "ESP32_TX" output
 			(at 161.29 90.17 270)
 			(uuid "c6f87bc7-d11f-44a1-8f1f-5a53949107f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM2_PWM_SERVO1" output
+			(at 135.89 90.17 270)
+			(uuid "8b563a7f-81d1-423e-9313-11c8d0bb171b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM2_PWM_SERVO2" output
+			(at 133.35 90.17 270)
+			(uuid "5c5b7a56-59c9-4946-8126-88f3d81d65ad")
 			(effects
 				(font
 					(size 1.27 1.27)

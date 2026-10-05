@@ -1894,8 +1894,8 @@
 		(uuid "3b2f7974-e46f-4bad-a098-69a83a1a9068")
 	)
 	(rectangle
-		(start 116.84 77.47)
-		(end 179.07 110.49)
+		(start 104.14 77.47)
+		(end 179.07 111.76)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2007,7 +2007,7 @@
 	)
 	(text_box "Servo"
 		(exclude_from_sim no)
-		(at 116.84 77.47 0)
+		(at 104.14 77.47 0)
 		(size 27.94 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2215,6 +2215,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4793b358-ed10-463b-9262-93ecfeb4750c")
+	)
+	(wire
+		(pts
 			(xy 132.08 52.07) (xy 151.13 52.07)
 		)
 		(stroke
@@ -2353,6 +2363,16 @@
 		)
 		(uuid "ee6a9d35-75a9-4b57-87e2-6338b196055e")
 	)
+	(wire
+		(pts
+			(xy 120.65 87.63) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4aaf279-4a2c-4353-8999-81750d79056b")
+	)
 	(label "NP_5V"
 		(at 142.24 52.07 180)
 		(effects
@@ -2487,7 +2507,7 @@
 		)
 		(uuid "6cf0c289-5cb5-415e-b32f-f9ed469b273b")
 	)
-	(hierarchical_label "Servomot"
+	(hierarchical_label "Servomot2"
 		(shape input)
 		(at 147.32 86.36 0)
 		(effects
@@ -2631,6 +2651,17 @@
 			(justify left)
 		)
 		(uuid "e11fa90c-968e-41df-b33d-a63117cbd818")
+	)
+	(hierarchical_label "Servomot1"
+		(shape input)
+		(at 120.65 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e23dda4c-9219-4b52-807d-3302cfde41a5")
 	)
 	(hierarchical_label "SCL_TOF"
 		(shape bidirectional)
@@ -3363,6 +3394,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 115.57 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c738ebb-f6c0-4c18-8339-8d8507e94cb7")
+		(property "Reference" "J502"
+			(at 113.03 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 113.03 96.5199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+			(at 115.57 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 115.57 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 115.57 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0e3a2639-12c2-4ba0-be74-8b597ee5716f")
+		)
+		(pin "1"
+			(uuid "3e3e2e57-0cc6-4299-8fee-0415d5b233bb")
+		)
+		(pin "2"
+			(uuid "304346fb-cfa4-4a39-b5ce-2e79e2260bf5")
+		)
+		(instances
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/1e0ae450-d628-4008-9bff-0e455259cd6c"
+					(reference "J502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 158.75 52.07 0)
 		(unit 1)
@@ -4026,6 +4166,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb17c62-b01f-4fb7-ba24-d6c14c29726b")
+		(property "Reference" "#PWR0503"
+			(at 120.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34b081fc-b458-4f39-886c-6a2f6fa3432b")
+		)
+		(instances
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/1e0ae450-d628-4008-9bff-0e455259cd6c"
+					(reference "#PWR0503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 129.54 0)
 		(unit 1)
@@ -4098,6 +4317,85 @@
 			(project "1ST_Schematix"
 				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/1e0ae450-d628-4008-9bff-0e455259cd6c"
 					(reference "#PWR0504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5964281a-3e61-49f4-b6d4-fd2b398dd947")
+		(property "Reference" "#PWR0508"
+			(at 129.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 129.54 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 129.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9b54a59-4e8e-438a-b203-511461770807")
+		)
+		(instances
+			(project "1ST_Schematix"
+				(path "/59c2502d-7c28-4023-9b54-15ec9e15e6d4/1e0ae450-d628-4008-9bff-0e455259cd6c"
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)

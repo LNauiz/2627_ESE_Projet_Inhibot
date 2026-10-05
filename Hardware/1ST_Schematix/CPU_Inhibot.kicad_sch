@@ -5170,7 +5170,7 @@
 		)
 		(uuid "287adb08-9e31-4a48-9b02-b283b210552f")
 	)
-	(hierarchical_label "TIM2_PWM_SERVO"
+	(hierarchical_label "TIM2_PWM_SERVO2"
 		(shape output)
 		(at 116.84 62.23 0)
 		(effects
@@ -5192,7 +5192,7 @@
 		)
 		(uuid "2c66ce0d-3be3-4a5a-b37d-4350deb98dce")
 	)
-	(hierarchical_label "TIM2_PWM_SERVO"
+	(hierarchical_label "TIM2_PWM_SERVO1"
 		(shape output)
 		(at 116.84 59.69 0)
 		(effects
