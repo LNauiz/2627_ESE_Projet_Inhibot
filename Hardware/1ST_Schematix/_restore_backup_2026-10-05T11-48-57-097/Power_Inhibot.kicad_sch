@@ -11492,7 +11492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 166.37 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11537,17 +11537,6 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 166.37 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "MPL1608S1R0MHT"
 			(at 166.37 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -14942,7 +14931,6 @@
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 26.67 168.91 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14950,9 +14938,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "eca643e4-ba4a-4398-916c-afe92e328b2c")
 		(property "Reference" "R301"
-			(at 24.13 167.6399 0)
+			(at 29.21 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14963,7 +14952,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 24.13 170.1799 0)
+			(at 29.21 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
