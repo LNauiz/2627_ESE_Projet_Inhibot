@@ -2122,17 +2122,6 @@
 				)
 			)
 		)
-		(property "JLCPCB Parts #" "C9900091799\r"
-			(at 85.09 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4a2541a5-07ce-459d-88be-34c0d24f8b00")
 		)
@@ -2719,7 +2708,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -2791,17 +2780,6 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 85.09 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Parts #" "\r"
 			(at 85.09 69.85 0)
 			(hide yes)
 			(show_name no)
