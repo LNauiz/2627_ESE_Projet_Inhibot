@@ -30,10 +30,11 @@ En plus de ces composants recommandés nous avons ajouté les composants suivant
 - [Accéléromètre et Gyroscope (LSM6DSLTR)](https://github.com/LNauiz/2627_ESE_Projet_Inhibot/blob/main/Datasheet/Accelerometre%26Gyroscope_LSM6DSLTR.pdf)
 
 
-
+---
 ## Mécanique du robot
+Pour réaliser la partie mécanique il fallait savoir quelle format de canette le robot doit récupérer. Le format choisis est le format "Sleek".
 
 
-
+---
 ## Code
 
