@@ -1,5 +1,5 @@
 # 2627_ESE_Projet_Inhibot
-_Projet réalisé par SERPHIN Bradley, NAVIZET Léonard et BOISBOURDIN Lucas_
+_Projet réalisé par SERAPHIN Bradley, NAVIZET Léonard et BOISBOURDIN Lucas_
 
 ---
 ## Présentation du projet
