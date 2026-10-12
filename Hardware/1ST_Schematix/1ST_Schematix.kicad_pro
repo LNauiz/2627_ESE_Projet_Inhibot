@@ -574,8 +574,8 @@
       "netlist": "",
       "plot": "/home/ese/Documents/2627_ESE_Projet_Inhibot/Hardware/FAB/gerber/",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../1ST_Schematix_3D_Model.step",
+      "vrml": "../PCB_3D_Model.wrl"
     },
     "page_layout_descr_file": ""
   },
