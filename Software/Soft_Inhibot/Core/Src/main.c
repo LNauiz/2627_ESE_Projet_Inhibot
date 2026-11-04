@@ -25,9 +25,10 @@
 #include "usb.h"
 #include "gpio.h"
 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -104,7 +105,7 @@ int main(void)
   MX_I2C2_Init();
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
-
+  printf("Hello World! \r\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,7 +113,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  HAL_GPIO_TogglePin(LED_STATUS_GPIO_Port, LED_STATUS_Pin);
+	  HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
