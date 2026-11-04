@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ese/Documents/2627_ESE_Projet_Inhibot/Software/Soft_Inhibot/build/Debug/cmake_install.cmake",
-		"/home/ese/Documents/2627_ESE_Projet_Inhibot/Software/Soft_Inhibot/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+		"C:/Users/leonard/Documents/ESE/2627_ESE_Projet_Inhibot/Software/Soft_Inhibot/build/Debug/cmake_install.cmake",
+		"C:/Users/leonard/Documents/ESE/2627_ESE_Projet_Inhibot/Software/Soft_Inhibot/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
