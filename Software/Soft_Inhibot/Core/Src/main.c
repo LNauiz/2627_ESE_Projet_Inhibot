@@ -24,6 +24,7 @@
 #include "usart.h"
 #include "usb.h"
 #include "gpio.h"
+#include "test.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -109,6 +110,12 @@ int main(void)
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
   printf("Hello World! \r\n");
+  setup_rgb();
+  const uint8_t rgb_hues[] = {0U, 85U, 170U};
+  uint8_t rgb_color_index = 0U;
+  set_led_hsv(0U, rgb_hues[rgb_color_index], 255U, 30U);
+  uint32_t last_rgb_change = HAL_GetTick();
+  uint32_t last_status_toggle = HAL_GetTick();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -116,8 +123,18 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  HAL_GPIO_TogglePin(LED_STATUS_GPIO_Port, LED_STATUS_Pin);
-	  HAL_Delay(500);
+    if ((HAL_GetTick() - last_rgb_change) >= 500U)
+    {
+      rgb_color_index = (uint8_t)((rgb_color_index + 1U) % 3U);
+      set_led_hsv(0U, rgb_hues[rgb_color_index], 255U, 30U);
+      last_rgb_change = HAL_GetTick();
+    }
+    if ((HAL_GetTick() - last_status_toggle) >= 500U)
+    {
+      HAL_GPIO_TogglePin(LED_STATUS_GPIO_Port, LED_STATUS_Pin);
+      last_status_toggle = HAL_GetTick();
+    }
+    HAL_Delay(20U);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

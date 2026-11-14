@@ -62,7 +62,7 @@ rule C_COMPILER__STM32_Drivers_unscanned_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ST\STM32CubeIDE_2.2.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741\tools\bin\cmake.exe --regenerate-during-build -SC:\Users\leonard\Documents\ESE\2627_ESE_Projet_Inhibot\Software\Soft_Inhibot -BC:\Users\leonard\Documents\ESE\2627_ESE_Projet_Inhibot\Software\Soft_Inhibot\build\Debug
+  command = C:\ST\STM32CubeIDE_2.2.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cmake.win32_1.1.200.202605190741\tools\bin\cmake.exe --regenerate-during-build -SC:\Users\Utilisateur\OneDrive\Documents\GitHub\2627_ESE_Projet_Inhibot\Software\Soft_Inhibot -BC:\Users\Utilisateur\OneDrive\Documents\GitHub\2627_ESE_Projet_Inhibot\Software\Soft_Inhibot\build\Debug
   description = Re-running CMake...
   generator = 1
 

@@ -14,7 +14,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="com.st.stm32cube.ide.cmake.cmakeTarget">
-				<src>C:\Users\leonard\Documents\ESE\2627_ESE_Projet_Inhibot\Software\Soft_Inhibot</src>
+				<src>C:\Users\Utilisateur\OneDrive\Documents\GitHub\2627_ESE_Projet_Inhibot\Software\Soft_Inhibot</src>
 				<build>build\Debug</build>
 				<generator>Ninja</generator>
 				<cmake_build_type>Debug</cmake_build_type>
